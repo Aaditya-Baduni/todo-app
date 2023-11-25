@@ -8,7 +8,7 @@ def add_todo():
     functions.write_todos(todos)
 
 # GUI visible to the user
-st.header("My Todo App")
+st.header("Aaditya's Todo App")
 st.text("Keep track of your tasks here!")
 
 for index, todo in enumerate(todos):
